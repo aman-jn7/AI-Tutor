@@ -40,10 +40,3 @@ Welcome to **AI Tutor Team**, your intelligent, interactive, and personalized AI
 - **Deployment**: Render
 
 ---
-
-## 📦 Installation
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/yourusername/ai-tutor-team.git
-   cd ai-tutor-team
