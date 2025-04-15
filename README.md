@@ -1,6 +1,6 @@
 # 🧠 AI Tutor Team
 
-> **"Learn smarter, not harder – Your personalized AI study partner."**
+**"Learn smarter, not harder – Your personalized AI study partner."**
 **AI Tutor Team** is a smart, conversational learning assistant built with Chainlit and OpenAI. It generates a personalized learning experience based on user-provided topics — complete with a structured study plan, topic explanation, quiz, code snippets, resource links, and optional email reminders. It also includes an "AskAT" mode for freeform Q&A.
 
 🌐 **Live Website**: [https://ai-tutor-adnd.onrender.com/](https://ai-tutor-adnd.onrender.com/)
