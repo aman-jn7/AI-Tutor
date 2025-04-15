@@ -1,42 +1,30 @@
-# 🤖 AI Tutor Team
+# 🧠 AI Tutor Team
 
-**"Learn Smarter, Not Harder — Your Personalized AI Study Partner."**
+**AI Tutor Team** is a smart, conversational learning assistant built with Chainlit and OpenAI. It generates a personalized learning experience based on user-provided topics — complete with a structured study plan, topic explanation, quiz, code snippets, resource links, and optional email reminders. It also includes an "AskAT" mode for freeform Q&A.
 
-Welcome to **AI Tutor Team**, your intelligent, interactive, and personalized AI-powered study assistant! This app brings together the power of multi-agent AI systems to generate study plans, explain topics, quiz your knowledge, and provide code examples — all in one place.
-
-🌐 **Live Site**: [https://ai-tutor-adnd.onrender.com](https://ai-tutor-adnd.onrender.com)
+🌐 **Live Website**: [https://ai-tutor-adnd.onrender.com/](https://ai-tutor-adnd.onrender.com/)
 
 ---
 
 ## 🚀 Features
 
-- ✍️ **Personalized Study Plan Generator**  
-  Get a structured roadmap based on your learning goals and time availability.
-
-- 📚 **Topic Explainer**  
-  Understand complex topics with easy-to-digest explanations.
-
-- 🧠 **Quiz Creator**  
-  Test your understanding with AI-generated quizzes and answers.
-
-- 🧑‍💻 **Code Generator**  
-  Receive real, runnable code examples for technical topics.
-
-- 🌐 **Web Resource Fetcher**  
-  Pulls the best learning resources from the web for your topic.
-
-- 📧 **Email Your Study Plan**  
-  Enter your email to receive a beautifully formatted plan in your inbox.
+- ✏️ **Dynamic Study Plan**: Personalized plans based on any topic
+- 📘 **Concept Explanation**: Simple and clear topic breakdowns
+- 📝 **Auto-Generated Quiz**: Practice what you've learned
+- 🔗 **Learning Resources**: Curated external links using SerpAPI
+- 💻 **Code Snippets**: Automatically generated if the topic is a programming language
+- 📧 **Email Reminder**: Get your study plan sent directly to your inbox
+- 💬 **AskAT Mode**: Chat with the AI Tutor on any topic, anytime
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Tech Stack
 
-- **Frontend**: [Chainlit](https://www.chainlit.io/)
-- **LLM Integration**: GPT-4o Mini (Azure-hosted)
-- **Orchestration**: LangChain Agents
-- **Web Search**: SerpAPI
-- **Email**: yagmail + markdown2
-- **Deployment**: Render
+- **LangChain** with `ChatOpenAI`
+- **Chainlit** for conversational frontend
+- **OpenAI GPT-4o-mini** via Azure
+- **SerpAPI** for real-time web search
+- **Python** (async/await based architecture)
+- **Dotenv** for managing environment secrets
 
 ---
