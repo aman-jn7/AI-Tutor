@@ -1,4 +1,4 @@
-# 🧠 AI Tutor Team
+# AI Tutor Team
 
 **"Learn smarter, not harder – Your personalized AI study partner."**
 
