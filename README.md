@@ -1,32 +1,58 @@
-# AI Tutor Team
+# 🧠 AI Tutor Team
 
-**"Learn smarter, not harder – Your personalized AI study partner."**
+**_"Learn smarter, not harder – Your personalized AI study partner."_**
 
-**AI Tutor Team** is a smart, conversational learning assistant built with Chainlit and OpenAI. It generates a personalized learning experience based on user-provided topics — complete with a structured study plan, topic explanation, quiz, code snippets, resource links, and optional email reminders. It also includes an "AskAT" mode for freeform Q&A.
+AI Tutor Team is an intelligent, multi-agent educational assistant built using Chainlit, LangChain, and OpenAI GPT-4o-mini via Azure. It delivers personalized, interactive learning experiences based on user-provided topics — complete with a structured study plan, topic explanations, coding examples, curated web resources, quizzes, and optional email notifications.
 
-🌐 **Live Website**: [https://ai-tutor-emci.onrender.com/](https://ai-tutor-emci.onrender.com/)
+🌐 **Live Website**: [https://ai-tutor-krkk.onrender.com/](https://ai-tutor-krkk.onrender.com/)
 
 ---
 
 ## 🚀 Features
 
-- ✏️ **Dynamic Study Plan**: Personalized plans based on any topic
-- 📘 **Concept Explanation**: Simple and clear topic breakdowns
-- 📝 **Auto-Generated Quiz**: Practice what you've learned
-- 🔗 **Learning Resources**: Curated external links using SerpAPI
-- 💻 **Code Snippets**: Automatically generated if the topic is a programming language
-- 📧 **Email Reminder**: Get your study plan sent directly to your inbox
-- 💬 **AskAT Mode**: Chat with the AI Tutor on any topic, anytime
+- ✏️ **Dynamic Study Plan Generator**  
+  Get a personalized, structured study path based on any topic in seconds.
+
+- 📘 **Topic Explanation Agent**  
+  Simplifies complex concepts into easy-to-understand explanations.
+
+- 📝 **Quiz Creator**  
+  Auto-generates 5-question quizzes to test your understanding.
+
+- 💻 **Code Example Generator**  
+  Outputs relevant code snippets (if the topic is programming-related).
+
+- 🔗 **Learning Resource Finder**  
+  Uses SerpAPI to fetch real-time articles, courses, or docs on the topic.
+
+- 📧 **Email Reminder System**  
+  Sends the study plan and other content directly to your inbox.
+
+- 💬 **AskAT Mode (Freeform Q&A)**  
+  A smart chatbot mode to ask anything and get answers instantly.
+
+---
+
+## 💡 How It Works
+
+The app uses **multi-agent LLM chains** under the hood:
+
+1. **Input Topic** → triggers all agents
+2. **Agents Collaborate** → study plan, explanation, quiz, code, and resources
+3. **Email Option** → content is sent to the user’s email
+4. **AskAT Mode** → persistent free-form chat powered by GPT-4o-mini
 
 ---
 
 ## 🧰 Tech Stack
 
-- **LangChain** with `ChatOpenAI`
-- **Chainlit** for conversational frontend
-- **OpenAI GPT-4o-mini** via Azure
-- **SerpAPI** for real-time web search
-- **Python** (async/await based architecture)
-- **Dotenv** for managing environment secrets
+| Layer         | Tools / Services                         |
+|---------------|------------------------------------------|
+| Backend LLM   | `LangChain`, `OpenAI GPT-4o-mini (Azure)`|
+| Frontend      | `Chainlit` (chat-style interface)        |
+| Search Engine | `SerpAPI`                                |
+| Deployment    | `Render` (https://ai-tutor-krkk.onrender.com/) |
+| Email         | `Yagmail` + Gmail SMTP                   |
+| Others        | `Python`, `dotenv`, `asyncio`, `markdown-it` |
 
 ---
