@@ -48,7 +48,7 @@ The app uses **multi-agent LLM chains** under the hood:
 
 | Layer         | Tools / Services                         |
 |---------------|------------------------------------------|
-| Backend LLM   | `LangChain`, `OpenAI GPT-4o-mini (Azure)`|
+| Backend LLM   | `LangChain`, `OpenAI GPT-4o-mini (Github)`|
 | Frontend      | `Chainlit` (chat-style interface)        |
 | Search Engine | `SerpAPI`                                |
 | Deployment    | `Render` (https://ai-tutor-krkk.onrender.com/) |
