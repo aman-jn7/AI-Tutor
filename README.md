@@ -52,7 +52,7 @@ The app uses **multi-agent LLM chains** under the hood:
 | Frontend      | `Chainlit` (chat-style interface)        |
 | Search Engine | `SerpAPI`                                |
 | Deployment    | `Render` (https://ai-tutor-krkk.onrender.com/) |
-| Email         | `Yagmail` + Gmail SMTP                   |
+| Email         | `Yagmail`                   |
 | Others        | `Python`, `dotenv`, `asyncio`, `markdown-it` |
 
 ---
